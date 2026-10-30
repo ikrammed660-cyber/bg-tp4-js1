@@ -1,12 +1,15 @@
 "use strict";
 
+// Déclaration de constantes (variables et constant , slide 38)
 const nom ="John";
 const prenom = "Doe";
 const age =30;
 const note = 15;
 const pi =3.14;
 
+// Fonction sans paramétre (Les fonctions , slide 46 )
 function f1() {
+    // Affichage dans la console (console.log(), slide 34)
     console.log(nom);
 }
 
@@ -29,4 +32,3 @@ function f5() {
 function f6() {
     console.log(pi);
 }
-
